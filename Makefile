@@ -1,4 +1,4 @@
-XENO_CONFIG=/usr/xenomai/bin/xeno-config
+XENO_CONFIG=/usr/bin/xeno-config
 
 XENOMAI_SKIN=native
 prefix := $(shell $(XENO_CONFIG) --prefix)
